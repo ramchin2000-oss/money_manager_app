@@ -1,9 +1,10 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
+import '../utils/utils.dart';
+
 class NoteService {
   // Base URL for your API
-  static const String baseUrl = "http://194.238.23.250:3002";
   final isoDate = DateTime.now().toIso8601String();
 
   NoteService();

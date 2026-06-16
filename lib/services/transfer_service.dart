@@ -1,8 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
+import '../utils/utils.dart';
+
 class TransferService {
-  static const String baseUrl = "http://194.238.23.250:3002"; // change in prod
   static const Map<String, String> headers = {
     "Content-Type": "application/json",
   };

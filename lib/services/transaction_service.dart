@@ -100,9 +100,10 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../utils/utils.dart';
+
 class TransactionService {
   // static String baseUrl = "https://rdt3tvjb-3002.inc1.devtunnels.ms";
-  static String baseUrl = "http://194.238.23.250:3002";
 
   /// 🔑 Get headers with JWT
   static Future<Map<String, String>> _getHeaders() async {
