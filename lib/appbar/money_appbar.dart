@@ -9,6 +9,7 @@ class MoneyAppbar extends StatefulWidget {
   final Function nextMonth;
   const MoneyAppbar({
     super.key,
+    
     required this.prevMonth,
     required this.nextMonth,
     required this.monthYear,
